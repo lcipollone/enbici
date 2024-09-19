@@ -12,11 +12,11 @@
     |-- operaciones ==> carpeta de funcionalidad 
     |-- resources ==> carpeta de recursos propios de la aplicación 
     |-- views ==> carpeta de vistas de la aplicación 
-|-- application.php ==> archivo principal de la aplicación 
-|-- autoload.php ==> definición de paths de clases 
-|-- db.inc.php ==> parámetros de configuración de base de datos 
-|-- master.php ==> template de vista 
-|-- ws.request.php ==> métodos de invocación vía ajax
+    |-- application.php ==> archivo principal de la aplicación 
+    |-- autoload.php ==> definición de paths de clases 
+    |-- db.inc.php ==> parámetros de configuración de base de datos 
+    |-- master.php ==> template de vista 
+    |-- ws.request.php ==> métodos de invocación vía ajax
 |-- OPDS.DB ==> carpeta del framework
 |-- OPDS.Render ==> carpeta del framework
 |-- OPDS.Style ==> carpeta del framework
