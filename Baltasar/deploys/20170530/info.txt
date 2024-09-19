@@ -1,0 +1,21 @@
++ sp_Operatorias_LIST
++ sp_Empresas_LIST
++ sp_ValoresOperatorias_LIST
+
+
++ Validaciones del lado cliente.
++ Loading o procesando cuando se ejecuta ajax.
++ Mensajes error/success por errores de server.
++ Renombrar mssql a "db"
+
+- "Redireccionar" ante errores (mostrar pagina de error si me encuentro en desarrollo/produccion)
+- Style de drupal "choca" con bootstrap-select
+
+= FW =
+- Necesitamos un .php Generico para poner las funciones que se usan en OPDS.Render, OPDS.Style, etc. Ver si no se puede usar el autoload
+
+- Hay que bajar un nivel en las funciones php para generalizar, por ejemplo cada "get" debería llamar a un ejecutar(query) y listo.
+- Para la funcionalidad js hay que encapsular las funciones de renderizado de controles, ajax, etc. De esa manera podremos actualizar los controles en el futuro.
+- Habrìa que versionar el "framework", por lo que hoy se está utilizando.
+
+-- https://jsfiddle.net/0qb23ygw/

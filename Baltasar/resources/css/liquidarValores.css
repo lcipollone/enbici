@@ -1,0 +1,12 @@
+/* Panel Resume */
+.trash { color:rgb(209, 91, 71); }
+.glyphicon,.list-group-item, .glyphicon { margin-right:5px;padding-top: 2px;margin-bottom:0px; }
+.radio, .checkbox { padding-top:4px !important; display:inline-block;margin:0px; }
+.list-group-item:hover, a.list-group-item:focus {text-decoration: none;background-color: rgb(245, 245, 245);}
+.list-group { margin-bottom:0px; }
+
+/* DataTables Style */
+.dataTables_wrapper .dataTables_filter {
+	float: left;
+	text-align: left;
+}
